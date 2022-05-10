@@ -21,10 +21,10 @@ export default defineConfig({
   },
   plugins: [
     svelte({
-      exclude: ['./src/App.svelte'],
-      compilerOptions: {
-        customElement: true,
-      },
+      // exclude: ['./src/App.svelte'],
+      // compilerOptions: {
+      //   customElement: true,
+      // },
     }),
   ],
 });
